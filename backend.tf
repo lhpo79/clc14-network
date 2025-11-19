@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "clc14-luiz-terraform"
-    key    = "network/terraform.tfstate"
+    key    = "network/terraform2.tfstate"
     region = "us-east-1"
     use_lockfile = true
   }
